@@ -1,0 +1,175 @@
+@import "~sass-rem";
+@import 'general';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-1.jpg');
+    background-size: 100% 3%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    .top-header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        #header-1 {
+            width: 100%;
+            height: 100%;
+            max-width: rem(600px);
+            min-width: rem(280px);
+        }
+    }
+    .bottom-header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        #header-2 {
+            width: 100%;
+            height: 100%;
+            max-width: rem(600px);
+            min-width: rem(280px);
+        }
+        #logo {
+            width: 100%;
+            padding: rem(10px) 0 rem(32px) 0;
+        }
+    }
+}
+
+.welcome {
+    // font-family: $default-font-family;
+    background: -webkit-linear-gradient(#F3F3F3, white);
+    background: -o-linear-gradient(#F3F3F3, white);
+    background: -moz-linear-gradient(#F3F3F3, white);
+    background: linear-gradient(#F3F3F3, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: #e4e4e4;
+    #welcome-title {
+        padding: rem(31px) 0 rem(41px) 0;
+    }
+    #decoration-1 {
+        padding: 0 0 rem(49px) 0;
+    }
+    #welcome-MORE {
+        padding: rem(27px) 0 rem(22px) 0;
+    }
+}
+
+.dishes {
+    color: white;
+    background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-2.jpg');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    #dishes-title {
+        padding: rem(56px) 0 rem(40px) 0;
+    }
+    .dishes-p-container {
+        padding: rem(26px) 0 rem(30px) 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .padding-10-16 {
+            padding: rem(10px) 0 rem(16px) 0;
+        }
+        .dishes-MORE {
+            font-weight: 700;
+            font-size: rem(14px);
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #gallery {
+        padding: rem(44px) 0 rem(46px) 0;
+    }
+    .photo-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+        img:nth-child(even) {
+            padding: rem(20px) 0 rem(20px) 0;
+        }
+        #photo-MORE {
+            padding: rem(58px) 0 rem(22px) 0;
+        }
+    }
+    #photo-decoration {
+        padding: 0 0 rem(33px) 0;
+    }
+}
+
+.philosophy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .top-philosophy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-img-1.jpg');
+        #philosophy-title {
+            padding: rem(61px) 0 rem(37px) 0;
+        }
+        #philosophy-p {
+            padding: 0 0 rem(53px) 0;
+            line-height: rem(26px);
+            text-align: center;
+        }
+    }
+    .bottom-philosophy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .green-title {
+            font-size: 18px;
+            color: #569e0f;
+            text-transform: uppercase;
+            padding: rem(16px) 0 rem(16px) 0;
+        }
+        .philosophy-MORE {
+            padding: rem(25px) 0 rem(64px) 0;
+        }
+    }
+}
+
+.testimonial {
+    background-image: url("https://livedemo00.template-help.com/newsletter_54880/images/bg-img-2.jpg");
+    #testimonial-container {
+        background-color: white;
+        margin: rem(50px) rem(20px);
+        padding: 0 rem(20px);
+        #name {
+            font-size: rem(18px);
+            padding: rem(25px) 0 rem(19px) 0;
+        }
+        #testimonial-p {
+            font-style: italic;
+            color: #4e4e4e;
+        }
+        #more-testimonial {
+            padding: rem(22px) rem(26px);
+        }
+    }
+}
