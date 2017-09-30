@@ -7,15 +7,15 @@
 }
 
 body {
-    background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-1.jpg');
-    background-size: 100% 3%;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 header {
+    background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-1.jpg');
+    background-size: 100% 28%;
+    background-repeat: no-repeat;
     .top-header {
         display: flex;
         justify-content: center;
@@ -124,11 +124,12 @@ header {
     flex-direction: column;
     align-items: center;
     .top-philosophy {
+        background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-img-1.jpg');
+        background-position: 50% 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         color: white;
-        background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-img-1.jpg');
         #philosophy-title {
             padding: rem(61px) 0 rem(37px) 0;
         }
@@ -156,8 +157,11 @@ header {
 
 .testimonial {
     background-image: url("https://livedemo00.template-help.com/newsletter_54880/images/bg-img-2.jpg");
+    background-position: 10% 0%;
+    background-repeat: no-repeat;
     #testimonial-container {
         background-color: white;
+        opacity: 0.8;
         margin: rem(50px) rem(20px);
         padding: 0 rem(20px);
         #name {
@@ -167,9 +171,57 @@ header {
         #testimonial-p {
             font-style: italic;
             color: #4e4e4e;
+            text-align: center;
         }
         #more-testimonial {
-            padding: rem(22px) rem(26px);
+            padding: rem(22px) 0 rem(26px) 0;
+            text-align: right;
         }
+    }
+}
+
+.contects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #contects-decoration {
+        padding: rem(55px) 0 rem(24px) 0;
+    }
+    #contects-title {
+        font-size: rem(26px);
+        color: #333333;
+    }
+    .contects-p-container {
+        font-size: rem(18px);
+        text-align: center;
+        line-height: rem(28px);
+        padding: rem(35px) 0 rem(31px) 0;
+    }
+    #phone-number {
+        padding: rem(19px) 0 rem(36px) 0;
+    }
+    .icon-container {
+        padding: rem(35px) 0 rem(27px) 0;
+    }
+}
+
+footer {
+    background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-1.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    .footer-p-container {
+        background-color: white;
+        padding: rem(15px) rem(20px);
+        font-size: rem(17px);
+        border-bottom: rem(5px) solid #4a4a4a;
+        a {
+            color: black;
+        }
+    }
+    #footer-bottom {
+        color: #010101;
+        text-align: center;
+        font-size: rem(17px);
+        padding: rem(27px) 0;
     }
 }
