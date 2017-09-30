@@ -19,14 +19,11 @@
         }
     }
 
-    header {
-        background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-1.jpg');
-        background-size: 100% 32%;
-        background-repeat: no-repeat;
-        @media screen and (min-width: rem(355px)) {
-            background-size: 100% 38%;
-        }
-        .top-header {
+    header {   
+            .top-header {
+            background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-1.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
             display: flex;
             justify-content: center;
             width: 100%;
@@ -42,17 +39,18 @@
             flex-direction: column;
             align-items: center;
             width: 100%;
+            position: relative;
             #header-2 {
                 width: 100%;
                 height: 100%;
                 max-width: rem(600px);
                 min-width: rem(280px);
             }
-            // #header-line {
-            //     z-index: -1;
-            //     display: obsolute;
-            //     top: 0;
-            // }
+            #header-line {
+                z-index: -1;
+                position: absolute;
+                top: rem(11px);
+            }
             #logo {
                 width: 100%;
                 padding: rem(10px) 0 rem(32px) 0;
@@ -293,6 +291,9 @@
         }
         .icon-container {
             padding: rem(35px) 0 rem(27px) 0;
+            a {
+                text-decoration: none;
+            }
         }
     }
 
@@ -301,7 +302,12 @@
         background-repeat: no-repeat;
         text-align: center;
         background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         .footer-p-container {
+            max-width: rem(500px);
             background-color: white;
             padding: rem(15px) rem(20px);
             font-size: rem(17px);
