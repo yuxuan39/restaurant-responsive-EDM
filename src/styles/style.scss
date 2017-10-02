@@ -19,8 +19,8 @@
         }
     }
 
-    header {   
-            .top-header {
+    header {
+        .top-header {
             background-image: url('https://livedemo00.template-help.com/newsletter_54880/images/bg-pattern-1.jpg');
             background-size: 100% 100%;
             background-repeat: no-repeat;
@@ -106,6 +106,7 @@
                     width: rem(172px);
                 }
                 img {
+                    width: 100%;
                     padding: 0 0 rem(26px) 0;
                 }
                 .padding-10-16 {
@@ -237,21 +238,20 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: rem(355px);
         #testimonial-container {
             background-color: white;
             width: rem(320px);
             opacity: 0.8;
-            padding: rem(20px);
-            position: absolute;
-            @media screen and (min-width: rem(560px)) {
-                right: 10%;
+            padding: 0 rem(20px);
+            margin: rem(66px) 0;
+            @media screen and (min-width: rem(670px)) {
+                margin: rem(66px) 0 rem(66px) 50%;
             }
             @media screen and (min-width: rem(860px)) {
-                right: 10%;
+                margin: rem(66px) 0 rem(66px) 35%;
             }
             @media screen and (min-width: rem(992px)) {
-                right: 26%;
+                margin: rem(66px) 0 rem(66px) 40%;
             }
             #name {
                 font-size: rem(18px);
